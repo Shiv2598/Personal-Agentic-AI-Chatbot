@@ -24,48 +24,33 @@ Setting Up a Python Virtual Environment
 Using Pipenv
 Install Pipenv (if not already installed):
 
-bash
-Copy
-Edit
+
 pip install pipenv
 Install dependencies:
 
-bash
-Copy
-Edit
+
 pipenv install
 Activate the virtual environment:
 
-bash
-Copy
-Edit
 pipenv shell
 Using pip and venv
 Create a virtual environment:
 
-bash
-Copy
-Edit
+
 python -m venv venv
 Activate the virtual environment:
 
 macOS/Linux:
 
-bash
-Copy
-Edit
+
 source venv/bin/activate
 Windows:
 
-cmd
-Copy
-Edit
+
 venv\Scripts\activate
 Install dependencies:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Using Conda
 Create a Conda environment:
@@ -76,33 +61,23 @@ Edit
 conda create --name myenv python=3.11
 Activate the environment:
 
-bash
-Copy
-Edit
+
 conda activate myenv
 Install dependencies:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Running the Application
 Phase 1: Create AI Agent
-bash
-Copy
-Edit
+
 python ai_agent.py
 Phase 2: Setup Backend with FastAPI
 (Run in a separate terminal)
 
-bash
-Copy
-Edit
+
 python backend.py
 Phase 3: Setup Frontend with Streamlit
-bash
-Copy
-Edit
+
 python frontend.py
 ⚠️ Important Notes
 Always keep the backend script (backend.py) running in a separate terminal while using the frontend or interacting with the AI agent.
