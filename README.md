@@ -22,18 +22,24 @@ Phase 3: Setup Frontend with Streamlit
 
 Setting Up a Python Virtual Environment
 Using Pipenv
+
+
 Install Pipenv (if not already installed):
-
-
 pip install pipenv
+
+
 Install dependencies:
-
-
 pipenv install
-Activate the virtual environment:
 
+
+
+Activate the virtual environment:
 pipenv shell
 Using pip and venv
+
+
+
+
 Create a virtual environment:
 
 
