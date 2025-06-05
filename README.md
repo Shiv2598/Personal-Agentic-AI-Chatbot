@@ -1,47 +1,112 @@
-# Personal-Agentic-AI-Chatbot
+🚀 Project Setup Guide
+This guide provides step-by-step instructions to set up your project environment, including setting up a Python virtual environment using Pipenv, pip + venv, or Conda, and running your AI chatbot application.
 
-Project Setup Guide
-This guide provides step-by-step instructions to set up your project environment, including setting up a Python virtual environment using Pipenv, pip, or conda.
-
-Table of Contents
+📁 Table of Contents
 Setting Up a Python Virtual Environment
+
 Using Pipenv
+
 Using pip and venv
+
 Using Conda
-Running the application
+
+Running the Application
+
+Phase 1: Create AI Agent
+
+Phase 2: Setup Backend with FastAPI
+
+Phase 3: Setup Frontend with Streamlit
+
+⚠️ Important Notes
+
 Setting Up a Python Virtual Environment
 Using Pipenv
 Install Pipenv (if not already installed):
+
+bash
+Copy
+Edit
 pip install pipenv
-Install Dependencies with Pipenv:
+Install dependencies:
+
+bash
+Copy
+Edit
 pipenv install
-Activate the Virtual Environment:
+Activate the virtual environment:
+
+bash
+Copy
+Edit
 pipenv shell
 Using pip and venv
-Create a Virtual Environment:
+Create a virtual environment:
+
+bash
+Copy
+Edit
 python -m venv venv
-Activate the Virtual Environment:
+Activate the virtual environment:
+
 macOS/Linux:
 
+bash
+Copy
+Edit
 source venv/bin/activate
 Windows:
 
+cmd
+Copy
+Edit
 venv\Scripts\activate
-Install Dependencies:
+Install dependencies:
+
+bash
+Copy
+Edit
 pip install -r requirements.txt
 Using Conda
-Create a Conda Environment:
+Create a Conda environment:
+
+bash
+Copy
+Edit
 conda create --name myenv python=3.11
-Activate the Conda Environment:
+Activate the environment:
+
+bash
+Copy
+Edit
 conda activate myenv
-Install Dependencies:
+Install dependencies:
+
+bash
+Copy
+Edit
 pip install -r requirements.txt
-Project Phases and Python Commands
+Running the Application
 Phase 1: Create AI Agent
+bash
+Copy
+Edit
 python ai_agent.py
 Phase 2: Setup Backend with FastAPI
+(Run in a separate terminal)
+
+bash
+Copy
+Edit
 python backend.py
 Phase 3: Setup Frontend with Streamlit
+bash
+Copy
+Edit
 python frontend.py
-IMPORTANT
-Make sure backend python script is running in a separate terminal
+⚠️ Important Notes
+Always keep the backend script (backend.py) running in a separate terminal while using the frontend or interacting with the AI agent.
+
+Ensure all dependencies are correctly installed in the active environment.
+
+Use compatible Python version (preferably Python 3.11).
